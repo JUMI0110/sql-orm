@@ -39,7 +39,7 @@
 -- SELECT * FROM movies_user
 -- WHERE NOT age > 30;
 
--- 데이터 계사
+-- 데이터 계산
 -- Movie.objects.aggregate(Avg('year')) {'year__avg': 1996.7156862745098}
 -- SELECT AVG(year) FROM movies_movie;
 
@@ -75,3 +75,5 @@
 -- Movie.objects.filter(year__range=[1990, 2000])
 -- SELECT * FROM movies_movie
 -- WHERE year BETWEEN 1990 AND 2000;
+
+
